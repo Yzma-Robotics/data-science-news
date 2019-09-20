@@ -4,7 +4,7 @@
 
 Data science is quickly evolving to be one of the hottest fields in the technology industry. With rapid advancements in computational performance that now allow for the analysis of massive datasets, we can uncover patterns and insights about user behavior and world trends to an unprecedented extent.
 
-![](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle)
+[](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle)
 
 With the influx of buzzwords in the field of data science and relevant fields, a common question I’ve heard from friends is “Data science sounds pretty cool — how do I get started?” And so what started out as an attempt to explain it to a friend who wanted to get started with Kaggle projects has culminated in this post. I’ll give a brief overview of the seven steps that make up a data science lifecycle — business understanding, data mining, data cleaning, data exploration, feature engineering, predictive modeling, and data visualization. For each step, I will also provide some resources that I’ve found to be useful in my experience.
 As a disclaimer, there are countless interpretations to the lifecycle (and to what data science even is), and this is the understanding that I have built up through my reading and experience so far. Data science is a quickly evolving field, and its terminology is rapidly evolving with it. If there’s something that you strongly disagree with, I’d love to hear about it!
