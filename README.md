@@ -1,1 +1,1 @@
-# data-science-news
+![](https://media.giphy.com/media/fjxOlRKicWTlWLmlah/giphy.gif)
