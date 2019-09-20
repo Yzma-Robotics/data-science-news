@@ -4,7 +4,7 @@
 
 Data science is quickly evolving to be one of the hottest fields in the technology industry. With rapid advancements in computational performance that now allow for the analysis of massive datasets, we can uncover patterns and insights about user behavior and world trends to an unprecedented extent.
 
-![](https://docs.microsoft.com/en-us/azure/machine-learning/team-data-science-process/lifecycle)
+![](images/1.png)
 
 With the influx of buzzwords in the field of data science and relevant fields, a common question I’ve heard from friends is “Data science sounds pretty cool — how do I get started?” And so what started out as an attempt to explain it to a friend who wanted to get started with Kaggle projects has culminated in this post. I’ll give a brief overview of the seven steps that make up a data science lifecycle — business understanding, data mining, data cleaning, data exploration, feature engineering, predictive modeling, and data visualization. For each step, I will also provide some resources that I’ve found to be useful in my experience.
 As a disclaimer, there are countless interpretations to the lifecycle (and to what data science even is), and this is the understanding that I have built up through my reading and experience so far. Data science is a quickly evolving field, and its terminology is rapidly evolving with it. If there’s something that you strongly disagree with, I’d love to hear about it!
@@ -12,7 +12,7 @@ As a disclaimer, there are countless interpretations to the lifecycle (and to wh
 * 1. Business Understanding
 The data scientists in the room are the people who keep asking why’s. They’re the people who want to ensure that every decision made in the company is supported by concrete data and that it is guaranteed (with a high probability) to achieve results. Before you can even start on a data science project, it is critical that you understand the problem you are trying to solve.
 
-![](https://datasciencedojo.com/community/jokes/)
+![](images/2.png)
 
 According to Microsoft Azure’s blog, we typically use data science to answer five types of questions:
 
@@ -62,9 +62,9 @@ Feature construction involves creating new features from the ones that you alrea
 * 6. Predictive Modeling
 Predictive modeling is where machine learning finally comes into your data science project. I use the term predictive modeling because I think a good project is not one that just trains a model and obsesses over the accuracy, but also uses comprehensive statistical methods and tests to ensure that the outcomes from the model actually make sense and are significant. Based on the questions you asked in the business understanding stage, this is where you decide which model to pick for your problem. This is never an easy decision, and there is no single right answer. The model (or models, and you should always be testing several) that you end up training will be dependent on the size, type and quality of your data, how much time and computational resources you are willing to invest, and the type of output you intend to derive. There are a couple of different cheat sheets available online which have a flowchart that helps you decide the right algorithm based on the type of classification or regression problem you are trying to solve. The two that I really like are the Microsoft Azure Cheat Sheet and SAS Cheat Sheet.
 
-Once you’ve trained your model, it is critical that you evaluate its success. A process called *k-fold cross-validation* is commonly used to measure the accuracy of a model. It involves separating the dataset into k equally sized groups of instances, training on all the groups except one, and repeating the process with different groups left out. This allows the model to be trained on all the data instead of using a typical train-test split.
+![](images/3.png)
 
-![](https://www.ab2l.org.br/whats-the-difference-between-data-science-machine-learning-and-artificial-intelligence/)
+Once you’ve trained your model, it is critical that you evaluate its success. A process called *k-fold cross-validation* is commonly used to measure the accuracy of a model. It involves separating the dataset into k equally sized groups of instances, training on all the groups except one, and repeating the process with different groups left out. This allows the model to be trained on all the data instead of using a typical train-test split.
 
 For classification models, we often test accuracy using *percent correct classification* (PCC), along with a *confusion matrix* which breaks down the errors into false positives and false negatives. Plots such as ROC curves, which is the true positive rate plotted against the false positive rate, are also used to benchmark the success of a model. For a regression model, the common metrics include the *coefficient of determination* (which gives information about the goodness of fit of a model), *mean squared error* (MSE), and *average absolute error.*
 
@@ -73,7 +73,7 @@ For classification models, we often test accuracy using *percent correct classif
 * 7. Data Visualization
 Data visualization is a tricky field, mostly because it seems simple but it could possibly be one of the hardest things to do well. That’s because data viz combines the fields of communication, psychology, statistics, and art, with an ultimate goal of communicating the data in a simple yet effective and visually pleasing way. Once you’ve derived the intended insights from your model, you have to represent them in a way that the different key stakeholders in the project can understand.
 
-![](http://www.trendinfographics.com/sales-of-the-dark-web/)
+![](4.png)
 
 Again, this is a topic that could be a blog post on its own, so instead of diving deeper into the field of data visualization, I will give a couple of starting points. I personally love working through the analysis and visualization pipeline on an interactive Python notebook like Jupyter, in which I can have my code and visualizations side by side, allowing for rapid iteration with libraries like Seaborn and Matplotlib. Tools like Tableau and Plotly make it really easy to drag-and-drop your data into visualization and manipulate it to get more complex visualizations. If you’re building an interactive visualization for the web, there is no better starting point than D3.js.
 
